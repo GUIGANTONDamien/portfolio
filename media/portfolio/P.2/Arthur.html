@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Gstylehome.css">
+    <link rel="stylesheet" href="Arthur.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Kaamelott</title>
+    <link rel="shortcut icon" type="image/jpg"
+        href="https://upload.wikimedia.org/wikipedia/fr/2/2a/Kaamelott_Premier_Volet_Logo.png" />
+</head>
+
+<body>
+    <header>
+        <img class="logoT" src="https://upload.wikimedia.org/wikipedia/fr/2/2a/Kaamelott_Premier_Volet_Logo.png">
+        <img class="logoP" src="https://static.kaamelott.gg/img/logo/kaamelott.png">
+        <div id="burger">
+
+            <input class="Burger" type="checkbox" id="burger_checkbox" />
+            <label type="checkbox" for="burger_checkbox"></label>
+            <ul id="menu">
+                <li><a class="navigationletter" href="index.html">Home</a></li>
+                <li><a class="navigationletter" href="personnage.html">Characters</a></li>
+                <li><a class="navigationletter" href="recette.html">Recipes</a></li>
+                <li><a class="navigationletter" href="contact.html">Contact Us</a></li>
+            </ul>
+    </header>
+    <main>
+        <div id=container>
+            <h1>King Arthur</h1>
+            <div id=photoArthur>
+                <img class=Arthur src="Alexandre-Astier.jpeg" alt="Picture of Arthur">
+            </div>
+            <br>
+            <div class="resume">
+                <article>Arthur Pendragon is the main character of Kaamelott and the king of the kingdom of Logres, he
+                    reigns over the whole Brittany island because he holds Excalibur. The Gods appointed him to build
+                    the Round Table and carry out the quest for the Grail. He is interpreted by Alexandre Astier.
+                </article>
+                <br>
+                <article>Arthur is surrounded by incompetent, lazy knights, easily frightened or distracted, who fail
+                    most of their missions or who end up finding but then discarding invaluable artifacts, not
+                    understanding the nature of their quest. When he tries to express a complex idea in a complex and
+                    exact way, he is usually not understood and comes off as rather silly.</article>
+                <br>
+                <div id=photoEquipe>
+                    <img class=equipe src="images/Kaamelott-6Ter-Les-graal-de-Kaamelott.jpg" alt="Picture of Arthur">
+                </div>
+                <article>Arthur has very progressive ideas, and tries to abolish the slave trade, torture, and capital
+                    punishment. His ideas usually clash with those of his father-in-law and minister of war and justice,
+                    Léodagan "Le Sanguinaire"("the Bloodthirsty"). Arthur also clashes with Lancelot, his prime minister
+                    and chief of staff, who believes that the Round Table and the Grail Quest should be for an elite,
+                    not for the self-selected group of rather ordinary men who have answered Arthur's call.</article>
+
+            </div>
+            <h2>Share your opinion !</h2>
+            <form action="/leaveacomment" method="post">
+                <label for="pseudo">Pseudo:</label>
+                <input type="text" id="pseudo" name="user_name">
+                <br>
+                <label for="msg">Message:</label>
+                <textarea id="msg" name="user_message"></textarea>
+                <input class="send" type="button" value="SEND">
+            </form>
+        </div>
+        <div id="scrollUp">
+            <a href="#top"><img src="images/to_top.png" /></a>
+        </div>
+    </main>
+
+    </footer>
+    <footer>
+        <div id="flex-end">
+            <p id="pfooter"> Find us on</p>
+            <img class="contentFooter"
+                src="https://cdn.discordapp.com/attachments/821368823985995797/822460774063800330/twitter.png">
+            <img class="contentFooter"
+                src="https://cdn.discordapp.com/attachments/821368823985995797/822460770385788978/logo_facebook.png">
+            <img class="contentFooter"
+                src="https://cdn.discordapp.com/attachments/821368823985995797/822460765255499776/insta.png">
+        </div>
+
+        <script>
+            jQuery(function () {
+                $(function () {
+                    $(window).scroll(function () {
+                        if ($(this).scrollTop() > 200) {
+                            $('#scrollUp').css('right', '10px');
+                        } else {
+                            $('#scrollUp').removeAttr('style');
+                        }
+
+                    });
+                });
+            });
+        </script>
+</body>
+
+</html>

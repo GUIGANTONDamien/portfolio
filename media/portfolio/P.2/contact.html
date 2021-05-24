@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Gstylehome.css">
+  <link rel="stylesheet" href="stylecontact.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Kaamelott</title>
+</head>
+
+<body>
+  <main>
+  <header>
+    <img class="logoT" src="https://upload.wikimedia.org/wikipedia/fr/2/2a/Kaamelott_Premier_Volet_Logo.png">
+    <img class="logoP" src="https://static.kaamelott.gg/img/logo/kaamelott.png">
+    <div id="burger">
+
+      <input class="Burger" type="checkbox" id="burger_checkbox" />
+      <label type="checkbox" for="burger_checkbox"></label>
+      <ul id="menu">
+        <li><a class="navigationletter" href="index.html">Home</a></li>
+        <li><a class="navigationletter" href="personnage.html">Characters</a></li>
+        <li><a class="navigationletter" href="recette.html">Recipes</a></li>
+        <li><a class="navigationletter" href="contact.html">Contact Us</a></li>
+      </ul>
+
+  </header>
+
+  <h1 id="letter">Send a letter to Kaamelott's Kingdom</h1>
+  <div id="bird"><img class="pigeon" id="pigeonpc" src="images/pigeon.png"></div>
+  <section class="contact">
+    <div class="bloc">
+      <form id="contactForm">
+        <label for="name">Name:</label><br />
+        <input type="text" id="name" name="name" value="Perceval Le Gallois" /><br />
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" value="example@kaamelott.com" /><br />
+        <label for="message">Comments:</label><br />
+        <textarea id="message" name="message" value="My dear King Arthur"></textarea>
+        <br /><br />
+        <input id="submit" type="submit" value="Submit" />
+      </form>
+    </div>
+    <div class="bloc" id="carte">
+      <img
+        src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3d3fe756-4c9b-42fa-99ba-321a8772135d/de4pic4-6ef1ada6-d4ee-40ae-99bc-c9ff7df02b07.jpg/v1/fill/w_1024,h_576,q_75,strp/carte_de_kaamelott_et_ses_environs_by_volodm_de4pic4-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD01NzYiLCJwYXRoIjoiXC9mXC8zZDNmZTc1Ni00YzliLTQyZmEtOTliYS0zMjFhODc3MjEzNWRcL2RlNHBpYzQtNmVmMWFkYTYtZDRlZS00MGFlLTk5YmMtYzlmZjdkZjAyYjA3LmpwZyIsIndpZHRoIjoiPD0xMDI0In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.I6cYi3xzoH2WIcJpXE9Zu7zPz8iQPPe1ah4VTU5xM-k">
+    </div>
+  </main>
+
+    <footer>
+      <div id="flex-end">
+        <p id="pfooter"> Find us on</p>
+        <img class="contentFooter"
+          src="https://cdn.discordapp.com/attachments/821368823985995797/822460774063800330/twitter.png">
+        <img class="contentFooter"
+          src="https://cdn.discordapp.com/attachments/821368823985995797/822460770385788978/logo_facebook.png">
+        <img class="contentFooter"
+          src="https://cdn.discordapp.com/attachments/821368823985995797/822460765255499776/insta.png">
+      </div>
+    </footer>
+
+    <script>
+      // On détermine l'ID de ton bouton
+      const button = document.getElementById('submit');
+      const bird = document.getElementById('bird');
+      // Au clic, on lance une fonction
+      button.addEventListener('click', function (event) {
+        //Animation ici
+        event.preventDefault();
+        bird.classList.add("animation-bird");
+        //Récupérer l'élément de l'oiseau par son ID
+
+        //Sur cet élément ajouter la classe animation-bird 
+      });
+    </script>
+</body>

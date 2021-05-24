@@ -1,0 +1,535 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;1,200&family=Redressed&display=swap');
+ 
+ 
+ 
+ 
+/*****Version DESKTOP*****/
+ 
+ 
+ 
+body {  
+    font-family: "Nunito", sans-serif;
+    background: url(images/fond.jpg);
+    margin: 0;
+    padding: 0;
+}
+ 
+main {
+ 
+    width: 1500px;
+    margin: 0 auto;
+}
+ 
+ 
+.flotte {
+    display: flex;
+    width: 200px; 
+    height: 200px; 
+    object-fit: cover; 
+    max-width: 100%;
+    transition: transform .2s;
+    margin: 20px;
+    border-radius: 2200px;
+}
+.flotte2 {
+    display: flex;
+    width: 190px; 
+    height: 190px; 
+    object-fit: cover; 
+    max-width: 100%;
+    transition: transform .2s;
+    margin: 20px;
+    border-radius: 2200px;
+}
+
+h1 {
+font-size: 3.5em;
+text-align: center;
+font-family: 'Redressed', cursive;
+}
+ 
+h2 {
+    font-size: 25px;
+    text-decoration: underline overline #485003;
+    font-style: italic;
+    display: right;
+}
+a.NoDeco {
+	color:#000;
+	text-decoration:none;
+}
+ 
+ 
+.flotte:hover {
+  transform: scale(1.4); /* (140% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.flotte2:hover {
+  transform: scale(1.4); /* (140% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+ 
+p {
+    margin-top : 10px;
+    font-size: 20px;
+}
+ 
+/***** Création d'un fond jaune pour la div recette *****/
+ 
+ 
+.fondText {
+    width: 85%;
+    padding: 5px 15px;
+    text-align: start;
+ 
+}
+ 
+.fondText2 {
+    width: 75%;
+    padding: 5px 15px;
+    text-align: end;
+ 
+}
+ 
+/***** Création d'un fond gris pour la section recette *****/
+.section {
+    /*max-height: 300px;*/
+    padding: 15px;
+    background-color : rgba(153, 152, 152, 0.5); 
+    margin: 10px;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 10px 10px 10px 10px;
+}
+ 
+#sectionLeft1 {
+    /*max-height: 300px;*/
+    display: flex;
+    padding: 15px;
+    background-color : rgba(153, 152, 152, 0.5); 
+    margin: 15px;
+    justify-content: space-around;
+    border-radius: 10px ;
+}
+#sectionLeft2 {
+    /*max-height: 300px;*/
+    padding: 15px;
+    background-color : rgba(153, 152, 152, 0.5); 
+    margin: 15px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    flex-direction: row-reverse;
+}
+#sectionLeft3 {
+    /*max-height: 300px;*/
+    padding: 15px;
+    background-color : rgba(153, 152, 152, 0.5); 
+    margin: 15px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px ;
+}
+#sectionLeft4 {
+    /*max-height: 300px;*/
+    padding: 15px;
+    background-color : rgba(153, 152, 152, 0.5); 
+    margin: 15px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    flex-direction: row-reverse;
+}
+#sectionLeft5 {
+    /*max-height: 300px;*/
+    padding: 15px;
+    background-color : rgba(153, 152, 152, 0.5); 
+    margin: 15px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px ;
+}
+#sectionLeft6 {
+    /*max-height: 300px;*/
+    padding: 15px;
+    background-color : rgba(153, 152, 152, 0.5); 
+    margin: 15px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    flex-direction: row-reverse;
+}
+ 
+.fondJaune {
+    display: flex;
+    width: 55%;
+    font-weight: bold;
+    background-color : rgb(255 255 244 / 35%);
+    /*justify-content: space-between;*/
+    border-radius: 10px;
+}
+.img-flotte {
+    margin: auto;
+}
+.recipe {
+    display: flex;
+    align-items: center;
+}
+.recipe-reverse {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+ 
+.fondJaune2 {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    width: 55%;
+    font-weight: bold;
+    background-color : rgb(255 255 244 / 35%);
+    justify-content: space-between;
+    border-radius: 10px 10px 10px 10px;
+}
+ 
+/***** buton love*****/
+.btn-love {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.button {
+    background-color:#383838;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    border-radius: 2rem;
+    width: 110px;
+}
+ 
+ 
+.button:hover {
+    background-color: #5964fc;
+    font-weight: 700;
+}
+ 
+/*.button strong {
+    font-size: 1.5rem;
+}*/
+ 
+/*****Etoiles******/
+
+.rating a {
+    color: rgb(144 144 144 );
+    text-decoration: none;
+    font-size: 2.5em;
+    transition: color .4s;
+ }
+.rating a:hover,
+.rating a:focus,
+.rating a:hover ~ a,
+.rating a:focus ~ a {
+    color: rgb(255, 238, 0);
+    cursor: pointer;
+}
+.rating a {
+    float: right;
+ }
+ 
+.mrtn-font-discret {
+    font-size: 1.5rem;
+    color: white
+}
+ 
+
+ 
+/*****Video*****/
+ 
+#vid{
+    margin: 3%;
+    display: flex;
+    justify-content: center;
+object-fit:contain;
+}
+ 
+/*****carrousel 3d automatique*****/
+ 
+*{box-sizing : border-box}
+ 
+img{max-width:100%}
+ 
+.contenu_carou_auto{
+ 
+margin:2rem auto;
+width:420px;
+height:279px;
+perspective:4000px
+ 
+}
+ 
+.caroussel-image{
+ 
+animation:rotation 30s infinite alternate linear;	
+transform-style:preserve-3d;
+position:relative;
+ 
+}
+ 
+.caroussel-image img{
+ 
+position: absolute;
+top:0;
+left: 0;
+ 
+ 
+}
+ 
+ 
+ 
+.caroussel-image img{
+ 
+filter:drop-shadow(0 12px 5px hsla(0,0%,0%,.4));
+width:400px;
+height:266px;
+left:10px;
+outline:1px solid transparent;
+backface-visibility:hidden
+ 
+}
+ 
+.caroussel-image img:nth-child(1){
+ 
+transform:translate3d(0,0,495px)
+ 
+}
+ 
+.caroussel-image img:nth-child(2){
+ 
+transform:rotateY(45deg) translateZ(495px)
+ 
+}
+ 
+.caroussel-image img:nth-child(3){
+ 
+	transform:rotateY(90deg) translateZ(495px)
+ 
+}
+ 
+.caroussel-image img:nth-child(4){
+ 
+	transform:rotateY(135deg) translateZ(495px)
+ 
+}
+ 
+.caroussel-image img:nth-child(5){
+ 
+	transform:rotateY(180deg) translateZ(495px)
+ 
+}
+ 
+.caroussel-image img:nth-child(6){
+ 
+	transform:rotateY(225deg) translateZ(495px)
+ 
+}
+ 
+.caroussel-image img:nth-child(7){
+ 
+	transform:rotateY(270deg) translateZ(495px)
+ 
+}
+ 
+.caroussel-image img:nth-child(8){
+ 
+	transform:rotateY(315deg) translateZ(495px)
+ 
+}
+ 
+ 
+ 
+ 
+@keyframes rotation{
+from{transform:rotatey(0)}
+to{transform:rotatey(1turn)}}
+ 
+/*****fin carrousel 3d automatique*****/
+ 
+ 
+ 
+ 
+/*Version MOBILE*/
+ 
+ 
+@media screen and (max-width:640px){
+ 
+/*body{
+    width: 90%;
+}*/
+header{
+    width: auto;
+}
+ 
+h1{
+    font-size: 30px;
+ 
+}
+h2 {
+    font-size: 15px;
+}
+ 
+main{
+    width: 100%;
+    overflow: hidden;
+}
+ 
+
+.flotte {
+    display: flex;
+    justify-content: flex-start;
+    width: 290px; 
+    height: 180px; 
+    object-fit: cover; 
+    max-width: 100%;
+    transition: transform .2s;
+    margin: 20px;
+    border-radius: 2200px;
+}
+.flotte2 {
+    display: flex;
+    justify-content: flex-start;
+    width: 290px; 
+    height: 180px; 
+    object-fit: cover; 
+    max-width: 100%;
+    transition: transform .2s;
+    margin: 20px;
+    border-radius: 2200px;
+}
+
+.img-flotte {
+    margin: auto 50px;
+    
+}
+.flotte:hover{
+    transform: none;
+    transform: scale(1.4);
+}
+.flotte2:hover {
+  transform: scale(1.4); /* (140% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+ 
+.fondText{
+    display:block;
+    padding: 5px 10px;
+}
+ 
+p{
+    font-size: 12px;
+    font-weight: bold;
+}
+.recipe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+.recipe-reverse {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+ 
+
+ 
+.fondJaune {
+    display: flex;
+    width: 100%;
+    background-color : rgb(255 255 244 / 35%);
+    /*justify-content: space-between;*/
+    border-radius: 10px 10px 10px 10px;
+}
+ 
+.fondJaune2 {
+    display: flex;
+    width: 100%;
+    background-color : rgb(255 255 244 / 35%);
+    justify-content: flex-start;
+    border-radius: 10px 10px 10px 10px;
+}
+.section{
+    width: 100%;
+}
+#sectionLeft1 {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color : rgba(153, 152, 152, 0.5); 
+    margin: 10px;
+    justify-content: flex-start;
+    border-radius: 10px 10px 10px 10px;
+}
+#sectionLeft2 {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color : rgba(153, 152, 152, 0.5); 
+    margin: 10px;
+    justify-content: flex-start;
+    border-radius: 10px 10px 10px 10px;
+}
+#sectionLeft3 {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color : rgba(153, 152, 152, 0.5); 
+    margin: 10px;
+    justify-content: flex-start;
+    border-radius: 10px 10px 10px 10px;
+}
+#sectionLeft4 {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color : rgba(153, 152, 152, 0.5); 
+    margin: 10px;
+    justify-content: flex-start;
+    border-radius: 10px 10px 10px 10px;
+}
+#sectionLeft5 {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color : rgba(153, 152, 152, 0.5); 
+    margin: 10px;
+    justify-content: flex-start;
+    border-radius: 10px 10px 10px 10px;
+}
+#sectionLeft6 {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color : rgba(153, 152, 152, 0.5); 
+    margin: 10px;
+    justify-content: flex-start;
+    border-radius: 10px 10px 10px 10px;
+}
+ 
+video{
+    width: 300px;
+    height: auto;
+}
+ 
+.contenu_carou_auto{
+ 
+margin:2rem auto;
+width:420px;
+height:279px;
+perspective:4000px
+ 
+}
+}

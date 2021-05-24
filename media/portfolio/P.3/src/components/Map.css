@@ -1,0 +1,33 @@
+.leaflet-container {
+  height: 55vh;
+  margin: 15px;
+  border-radius: 15px;
+  box-shadow: 2px 3px 2px rgb(187, 187, 187);
+}
+.titregras {
+  display: flex;
+  color: #ff5733;
+  font-weight: 900;
+}
+.dispotext {
+  padding: 10px;
+  text-align: center;
+}
+.containerBouton {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.boutonChoisir {
+  background-color: black;
+  color: orangered;
+  border-radius: 10px;
+  font-size: 1.5em;
+  padding: 5px;
+}
+
+.boutonChoisir:hover {
+  color: white;
+  text-shadow: 2px 2px 2px orangered;
+}

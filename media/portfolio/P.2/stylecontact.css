@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap%27');
+
+
+#letter{
+  display: flex;
+  justify-content: center;
+  font-family: redressed, sans-serif;
+  font-size: 3.5em
+}
+.contact{
+  display:flex;
+  /*flex-direction: row;*/
+  justify-content: space-around;
+}
+
+form {
+  margin: 0 auto;
+  width: 300px;
+  padding-top: 20px;
+}
+
+label {
+  line-height: 2;
+  font-family: redressed, sans-serif;
+  font-size: 25px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  background: rgb(5, 0, 0);
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 10px;
+} 
+#carte{
+  display: flex;
+  padding-top: 50px; 
+}
+
+
+.bloc{
+  display: flex;
+  align-items: center;
+}
+
+
+/* footer part*/
+
+footer{
+
+  background: rgba(51, 51, 51, 0.3);
+
+  margin-top: 30px;
+
+  width:100%;
+
+  height: 40px;
+}
+
+#wrapContent{
+  display: flex;
+  justify-content: flex-end;
+}
+
+#wrapContent p{
+  padding-bottom: 10px;
+}
+
+
+.contentFooter{
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+  padding-bottom: 15px;
+}
+
+/*******TEST******/
+
+#bird {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
+
+.animation-bird {
+  width: 100px;
+  height: 100px;
+  -webkit-animation: redBox 5s infinite;
+  -moz-animation: redBox 5s infinite;
+  animation: redBox 5s;
+}
+
+@keyframes 
+redBox {
+0% {
+  left: 10px;
+}
+50% {
+  left: 900px;
+}
+100% {
+  left: 900px;
+}
+}
+#pigeonpc{
+  width: 150px;
+  margin: 80px;
+  margin-left: 250px;
+}
+
+
+
+@media screen and (max-width: 640px){
+
+
+#carte{
+
+  margin: 1%;
+  width: 400px;
+  height: 300px;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#letter{
+font-size: 1.5em;
+}
+
+#contactForm{
+  height: 100%;
+  margin: 0 auto;
+
+}
+
+.contact{
+  display:flex;
+  flex-direction: column;
+}
+
+
+.bloc{
+  margin: 0 auto;
+  width: 390px;
+  overflow: hidden;
+}
+.bloc img {
+  height: 276px;
+  top: 0px;
+  left: -80px;
+  position: relative;
+}
+
+#pigeonpc{
+  width: 150px;
+  margin: 80px;
+  margin-left: 250px;
+}
+#bird{
+  visibility: hidden;
+}
+
+.animation-bird {
+  width: 100px;
+  height: 100px;
+  -webkit-animation: redBox 5s infinite;
+  -moz-animation: redBox 5s infinite;
+  animation: redBox 5s;
+}
+}

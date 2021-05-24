@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+#letter {
+  display: flex;
+  justify-content: center;
+  font-family: Roboto, sans-serif;
+  font-size: 3.5em;
+}
+input {
+  border: none;
+}
+#message {
+  border: none;
+}
+textarea {
+  height: 10em;
+}
+.contact {
+  display: flex;
+  /*flex-direction: row;*/
+  justify-content: space-around;
+  background-color: #fdf6d3;
+}
+
+form {
+  margin: 0 auto;
+  width: 300px;
+  padding-top: 20px;
+}
+
+label {
+  line-height: 2;
+  font-family: Roboto, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  background: rgb(5, 0, 0);
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+#carte {
+  display: flex;
+  padding-top: 50px;
+}
+
+.bloc {
+  display: flex;
+  align-items: center;
+}
+#letter {
+  font-size: 20px;
+}
+@media screen and (max-width: 640px) {
+  #carte {
+    margin: 1%;
+    width: 400px;
+    height: 300px;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  #contactForm {
+    height: 100%;
+    margin: 0 auto;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bloc {
+    margin: 0 auto;
+    width: 390px;
+    overflow: hidden;
+    margin-bottom: 5em;
+  }
+  .bloc img {
+    height: 276px;
+    top: 0px;
+    left: -80px;
+    position: relative;
+  }
+}
+

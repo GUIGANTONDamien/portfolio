@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  height: 100%;
+  position: relative;
+}
+
+h4 {
+  font-family: Roboto, sans-serif;
+}
+#flex {
+  background-color: #f9e373;
+  height: 5em;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+footer div {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#logo {
+  height: 4em;
+  margin-left: 20px;
+}
+
+.contentFooter {
+  margin: 2px;
+  border-radius: 25px;
+  max-width: 100%;
+}
+
+#pfooter {
+  display: flex;
+}
+
+#logoPic {
+  width: 25%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+#text {
+  width: 15em;
+  display: flex;
+  align-items: center;
+}
+
+#partDiv {
+  display: flex;
+  justify-content: space-around;
+  height: 3em;
+  position: absolute;
+  margin-top: -35px;
+  margin-left: 10px;
+}
+
+.partenaire {
+  max-width: 15em;
+  border-radius: 50px;
+  padding: 5px;
+  background-color: white;
+  height: 65%;
+}
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5%;
+  margin: 1em;
+}
+
+@media screen and (min-width: 640px) {
+  #logoPic {
+    width: 75%;
+    display: flex;
+    justify-content: flex-start;
+  }
+  footer {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 500px) {
+  .follow {
+    display: none;
+  }
+
+  #text {
+    width: 1em;
+  }
+  .partenaire {
+    margin-bottom: -25px;
+  }
+  footer {
+    width: 100%;
+    flex-direction: column;
+  }
+  .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    margin: 1em;
+  }
+}

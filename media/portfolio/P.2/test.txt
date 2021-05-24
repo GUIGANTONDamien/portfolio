@@ -1,0 +1,44 @@
+<script>
+      // On détermine l'ID de ton bouton
+const button = document.getElementById('submit');
+const bird = document.getElementById('bird');
+ // Au clic, on lance une fonction
+button.addEventListener('click', function(event){
+     //Animation ici
+     event.preventDefault(); 
+     bird.classList.add("animation-bird");
+     //Récupérer l'élément de l'oiseau par son ID
+     
+     //Sur cet élément ajouter la classe animation-bird 
+});
+    </script>
+
+
+/*******TEST******/
+
+#bird {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
+
+.animation-bird {
+  width: 100px;
+  height: 100px;
+  -webkit-animation: redBox 5s infinite;
+  -moz-animation: redBox 5s infinite;
+  animation: redBox 5s;
+}
+
+@keyframes 
+redBox {
+0% {
+  left: 10px;
+}
+50% {
+  left: 900px;
+}
+100% {
+  left: 900px;
+}
+}

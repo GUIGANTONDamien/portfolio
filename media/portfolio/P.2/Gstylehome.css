@@ -1,0 +1,174 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+
+
+body{
+    background-image: url("https://cdn.discordapp.com/attachments/821368823985995797/822389545085304882/feuille.jpg");
+    background-size: cover;
+
+font-family: nunito, sans-serif;
+
+}
+
+
+
+
+header {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+font-weight: bold;
+font-size: larger;
+width: 100%;
+height: 80px;
+margin: 0;
+padding: 0;
+background: linear-gradient(rgb(165, 165, 165), rgb(132, 132, 133));
+border-radius: 3px;
+box-shadow: 0 1px 3px rgba(0, 0, 0, .3),
+            0 3px 5px rgba(0, 0, 0, .2),
+            0 5px 10px rgba(0, 0, 0, .2),
+            0 20px 20px rgba(0, 0, 0, .15);
+}  
+header.logoT {
+    display: flex;
+
+    
+    }  
+header.logoP {
+        display: flex;
+        height: 100px;
+    } 
+    
+
+
+ul {
+    display: flex;
+    flex-direction: row; /* => A utiliser quand le burger est affiché */
+    /* flex-direction: row; => A utiliser quand le burger n'est pas affiché */
+        width: 100%;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+
+    
+}
+li {
+    list-style-type: none;
+    height: 100%;
+    
+}
+li a:hover, li a:focus{
+   list-style-type: none;
+    padding: 10px;
+        background: rgba(255,255,255,.2);
+    box-shadow: 0 1px 0 rgba(7, 7, 7, 0.7) inset, 
+                0 -1px 0 hsl(210, 3%, 14%) inset, 
+                0 -2px 0 hsl(210, 4%, 21%) inset, 
+                0 -3px 0 hsl(180, 1%, 17%) inset, 
+                0 -4px 0 hsl(240, 2%, 9%) inset, 
+                0 -5px 0 hsl(210, 3%, 15%) inset; 
+                padding: 8px 25px 17px 25px;
+}
+li a:active {
+    background: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.1)); 
+    box-shadow: 0 0 2px rgba(0,0,0,.3) inset;
+}
+.navigationletter {
+    padding-left: 30px;
+    text-decoration: none;
+    color: #000000;
+}
+.Burger{
+    display: none;
+}
+.Burger[type="checkbox"]:not(:checked) + ul {
+ display: none;
+}
+.Burger[type="checkbox"]:checked + ul {
+display: flex;
+
+}
+
+/*footerpart*/
+
+footer{
+    display: flex;
+    width: 100%;
+    background-color: rgba(59, 59, 59, 0.2);
+    height: 2em;
+}
+
+footer div{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.contentFooter{
+   margin-left: 2%;
+   margin-right: 2%;
+}
+
+#pfooter{
+    display: flex;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 640px) {
+ul {
+    flex-direction: column;
+  }
+  li {
+    list-style-type: none;
+    height: 100%;
+    
+}
+li a:hover, li a:focus{
+   list-style-type: none;
+    padding: 10px;
+        background: rgba(255,255,255,.2);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .7) inset, 
+                0 -1px 0 hsl(210, 100%, 42%) inset, 
+                0 -2px 0 hsl(210, 100%, 48%) inset, 
+                0 -3px 0 hsl(210, 100%, 54%) inset, 
+                0 -4px 0 hsl(210, 100%, 60%) inset, 
+                0 -5px 0 hsl(210, 100%, 70%) inset; 
+                padding: 8px 25px 17px 25px;
+}
+li a:active {
+    background: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.1)); 
+    box-shadow: 0 0 2px rgba(0,0,0,.3) inset;
+}
+a {
+    padding-bottom: 20px;
+}
+
+.Burger[type="checkbox"]:not(:checked) ~ ul {
+    display: none;
+  }
+  .Burger[type="checkbox"]:checked ~ ul {
+    display: flex;
+  }
+  
+  /* Gestion de la checkbox */
+  .Burger[type="checkbox"] + label:before {
+    font-family: FontAwesome;
+    font-size: 30px;
+  }
+
+  .Burger[type="checkbox"] + label:before {
+    content: "\f0c9";
+    
+  }
+
+  .Burger[type="checkbox"]:not(:checked) + label:before {
+    content: "\f0c9";
+  }
+
+  .Burger[type="checkbox"]:checked + label:before {
+    content: "\f00d";
+  }
+}
