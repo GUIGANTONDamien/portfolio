@@ -68,17 +68,17 @@ h2 {
   border: 1px solid #b3aca7;
   position: relative;
 }
-.photo img {
+.img_profil_cv {
   position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  height: auto;
-  max-width: 90%;
-  border-radius: 3px;
-  box-shadow: 0 0 4px #111;
+  top: -121px;
+  /* bottom: 0; */
+  /* left: 0; */
+  right: -34px;
+  /* margin: auto; */
+  /* margin-left: -54px; */
+  /* height: auto; */
+  max-width: 35%;
+  /* border-radius: 3px;*/
 }
 header .button {
   margin-top: 45px;
@@ -909,11 +909,6 @@ footer p {
   letter-spacing: 0.3em;
 }
 
-
-
-
-
-
 /* ********************** MEDIA QUERIES *********************** */
 
 @media screen and (max-width: 640px) {
@@ -1312,9 +1307,6 @@ p {
   background-color: white;
 }
 
-
-
-
 /* Animation */
 
 .parallax > use {
@@ -1393,41 +1385,47 @@ p {
     align-items: center;
   }
   .section-post-it {
-  display: none;
+    display: none;
+  }
+
+  .logo-skills-mobile {
+    max-width: 70px;
+  }
+
+  #envi-travail {
+    text-align: center;
+  }
+
+  .column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .carousel {
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(179, 172, 167, 0.08);
+    transform: translate(-50%, -50%);
+    margin-top: 300px;
+  }
+
+  #parcours h3 {
+    text-align: center;
+  }
+
+  .img_profil_cv {
+    position: absolute;
+    top: -29px;
+    /* bottom: 0; */
+    /* left: 0; */
+    right: -23px;
+    /* margin: auto; */
+    /* margin-left: -36px; */
+    /* height: auto; */
+    max-width: 65%;
+    /* border-radius: 3px;*/
+  }
 }
-
-.logo-skills-mobile {
-  max-width: 70px;
-}
-
-#envi-travail {
-  text-align: center;
-}
-
-.column {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.carousel {
-  top: 50%;
-  left: 50%;
-  width: 100%;
-  text-align: center;
-  background-color: rgba(179, 172, 167, 0.08);
-  transform: translate(-50%, -50%);
-  margin-top: 300px;
-}
-
-#parcours h3 {
-  text-align: center;
-}
-
-
-
-
-
-
-}
-
