@@ -18,7 +18,7 @@ window.addEventListener('scroll', function () {
 var typed = new Typed('.typed', {
   strings: [
     "Bonjour à tous et à toutes, je m'appelle Damien",
-    "Après avoir exercé différents métiers. J'ai décidé de me lancer à 100% dans l'apprentissage du code, après 5 mois à me former en autodidacte aux langages Front tels que CSS, Javascript et son Framework React. J'ai voulu solidifier mes connaissances en faisant une formation de développeur web. Plus qu'un avenir professionnel, je me suis découvert une passion, celle de coder."
+    "Après avoir exercé différents métiers. J'ai décidé de me lancer à 100% dans l'apprentissage du code, après 5 mois à me former en autodidacte aux langages Front tels que CSS, Javascript et son Framework React. J'ai voulu solidifier mes connaissances en faisant une formation de développeur web. Plus qu'un avenir professionnel, je me suis découvert une passion, celle de coder.",
   ],
   typeSpeed: 20,
 });
@@ -59,7 +59,7 @@ $(window).scroll(function () {
 AOS.init();
 
 // POST-IT
-
+/*
 $(document).ready(function () {
   all_notes = $('li a');
 
@@ -74,7 +74,7 @@ $(document).ready(function () {
       content: note_content,
     };
 
-    window.localStorage.setItem(item_key, JSON.stringify(data));
+    
   });
 
   all_notes.each(function (index) {
@@ -88,7 +88,7 @@ $(document).ready(function () {
       $(this).find('p').text(note_content);
     }
   });
-});
+});*/
 
 // curseur
 
@@ -212,4 +212,3 @@ document
       goToItem(target);
     }
   });
-

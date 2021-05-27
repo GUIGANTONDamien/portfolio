@@ -175,8 +175,7 @@ header .button:hover a {
   max-width: 800px;
   margin: 200px auto 180px auto;
   padding: 40px 30px 100px 30px;
-  background: url(./media/arriere-plan-style-futuriste.jpg) no-repeat fixed 50%
-    50%;
+  background: url(./media/fond_ecran_parcours.jpg) no-repeat fixed 50% 50%;
   background-size: cover;
   border-radius: 8px;
   box-shadow: -1px -1px 8px #283655;
@@ -184,21 +183,21 @@ header .button:hover a {
 #parcours h3 {
   font-size: 2.5em;
   padding-bottom: 30px;
-  color: white;
+  color: #283655;
 }
 #parcours h4 {
   font-size: 1.6em;
-  color: #fcfafa;
+  color: #283655;
   margin-left: 20px;
 }
 #parcours h6 {
   font-style: italic;
-  color: #00f74a;
+  color: #283655;
   margin-left: 20px;
 }
 #parcours p {
   line-height: 1.9em;
-  color: white;
+  color: black;
 }
 .timeline {
   border-top: 3px solid;
@@ -375,7 +374,7 @@ header .button:hover a {
   background: url(./media/tableau.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-size: 80% 150vh;
+  background-size: 85% 150vh;
   height: 150vh;
   background-position: center;
 }
