@@ -126,7 +126,8 @@ header .button:hover a {
 }
 
 .img-lang {
-  width: 80px;
+  max-width: 80px;
+  height: 80px;
 }
 
 /* ********************** FORMATION ********************* */
@@ -366,8 +367,8 @@ header .button:hover a {
 }
 
 .img-lang-project {
-  width: 20px;
-  height: 20px;
+  width: 50px;
+  height: 50px;
 }
 /* ********************* POST-IT *********************** */
 .section-post-it {
@@ -969,12 +970,13 @@ footer p {
     background-image: none;
     margin-top: 50px;
     background-size: cover;
-    height: 120vh;
+    height: 100%;
     filter: drop-shadow(0 0 0.75rem rgb(135, 146, 146));
     box-shadow: 8px 8px 12px #aaa;
   }
   #formation {
     margin-left: 10px;
+    padding-bottom: 50px;
   }
   #portfolio {
     display: flex;
@@ -1051,6 +1053,23 @@ footer p {
     color: #aca49c;
     text-align: center;
   }
+  .img-lang-project {
+    width: 50px;
+    height: 50px;
+  }
+  .img-container {
+    height: 22vh;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  .img-container img {
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+}
 }
 /********************* Curser *******************/
 
@@ -1349,7 +1368,6 @@ p {
 /*Shrinking for mobile*/
 @media (max-width: 768px) {
   .waves {
-    height: 40px;
     min-height: 40px;
   }
   .content {
