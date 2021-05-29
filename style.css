@@ -969,7 +969,7 @@ footer p {
     background-image: none;
     margin-top: 50px;
     background-size: cover;
-    height: 110vh;
+    height: 120vh;
     filter: drop-shadow(0 0 0.75rem rgb(135, 146, 146));
     box-shadow: 8px 8px 12px #aaa;
   }
