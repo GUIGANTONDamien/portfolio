@@ -70,7 +70,7 @@ h2 {
 }
 .img_profil_cv {
   position: absolute;
-  top: -121px;
+  top: -50px;
   /* bottom: 0; */
   /* left: 0; */
   right: -34px;
@@ -1069,7 +1069,19 @@ footer p {
     position: relative;
     max-width: 100%;
     margin: 0 auto;
-}
+  }
+  .img_profil_cv {
+    position: absolute;
+    top: -12px;
+    /* bottom: 0; */
+    /* left: 0; */
+    right: -0px;
+    /* margin: auto; */
+    /* margin-left: -36px; */
+    /* height: auto; */
+    max-width: 62%;
+    /* border-radius: 3px;*/
+  }
 }
 /********************* Curser *******************/
 
@@ -1446,14 +1458,14 @@ p {
 
   .img_profil_cv {
     position: absolute;
-    top: -29px;
+    top: -12px;
     /* bottom: 0; */
     /* left: 0; */
-    right: -23px;
+    right: -0px;
     /* margin: auto; */
     /* margin-left: -36px; */
     /* height: auto; */
-    max-width: 65%;
+    max-width: 62%;
     /* border-radius: 3px;*/
   }
 }
