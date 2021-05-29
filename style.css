@@ -137,7 +137,6 @@ header .button:hover a {
   flex-wrap: nowrap;
 }
 
-
 #autodidacte {
   padding-top: 20px;
 }
@@ -911,7 +910,7 @@ footer p {
 
 /* ********************** MEDIA QUERIES *********************** */
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 900px) {
   .navbar {
     display: none !important;
   }
@@ -1052,7 +1051,6 @@ footer p {
     color: #aca49c;
     text-align: center;
   }
-  
 }
 /********************* Curser *******************/
 
