@@ -70,14 +70,14 @@ h2 {
 }
 .img_profil_cv {
   position: absolute;
-  top: -50px;
+  top: -120px;
   /* bottom: 0; */
   /* left: 0; */
   right: -34px;
   /* margin: auto; */
   /* margin-left: -54px; */
   /* height: auto; */
-  max-width: 35%;
+  max-width: 34%;
   /* border-radius: 3px;*/
 }
 header .button {
