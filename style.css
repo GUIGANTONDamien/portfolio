@@ -100,11 +100,12 @@ header .button:hover a {
   background-image: url(media/image-lang-form.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 100%;
+  padding-bottom: 50px;
   filter: drop-shadow(0 0 0.75rem rgb(135, 146, 146));
 }
 #langages-formations h3 {
-  font-size: 1.75rem;
+  font-size: 2.5rem;
   padding-top: 50px;
   text-align: center;
 }
@@ -174,7 +175,7 @@ header .button:hover a {
 /* ********************** PARCOURS *************************** */
 #parcours {
   max-width: 800px;
-  margin: 200px auto 180px auto;
+  margin: 100px auto 100px auto;
   padding: 40px 30px 100px 30px;
   background: url(./media/fond_ecran_parcours.jpg) no-repeat fixed 50% 50%;
   background-size: cover;
@@ -238,11 +239,12 @@ header .button:hover a {
   margin: 100px 2% 0 2%;
   padding: 40px 10px 60px 40px;
   background-color: rgba(179, 172, 167, 0.08);
-  box-shadow: 0px 0px 1px #a8a8a9;
+  box-shadow: -1px -1px 8px #283655;
 }
 #portfolio h3 {
-  font-size: 3em;
+  font-size: 2.5em;
   padding-bottom: 15px;
+  text-align: center;
 }
 .projet {
   display: flex;
@@ -375,8 +377,7 @@ header .button:hover a {
   background: url(./media/tableau.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-size: 85% 150vh;
-  height: 150vh;
+  background-size: 87%;
   background-position: center;
 }
 
@@ -403,7 +404,7 @@ body {
 }
 
 h2.title-post-it {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 p.text-post-it {
   font-family: 'Reenie Beanie';
@@ -417,6 +418,7 @@ ul.post-it {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding-top: 50px;
 }
 ul.post-it li a {
   text-decoration: none;
@@ -424,7 +426,7 @@ ul.post-it li a {
   background: #ffc;
   display: block;
   height: 12em;
-  width: 10em;
+  width: 12em;
   padding: 1em;
   box-shadow: 5px 5px 7px rgba(33, 33, 33, 0.7);
   transform: rotate(-6deg);
@@ -463,7 +465,7 @@ ul.post-it li {
 
 .section-post-it h3 {
   text-align: center;
-  font-size: 40px;
+  font-size: 2.5em;
 }
 
 /* ********************* OTHER *********************** */
@@ -498,12 +500,13 @@ ul.post-it li {
   text-align: center;
   background-color: rgba(179, 172, 167, 0.08);
   transform: translate(-50%, -50%);
-  margin-top: 400px;
+  margin-top: 500px;
 }
 
 .carousel-h3 {
   margin-top: 50px;
   margin-left: 30px;
+  font-size: 2.5em;
 }
 
 .carousel-inner {
@@ -1057,9 +1060,6 @@ footer p {
     width: 50px;
     height: 50px;
   }
-  .img-container {
-    height: 22vh;
-  }
   *,
   *::before,
   *::after {
@@ -1081,6 +1081,12 @@ footer p {
     /* height: auto; */
     max-width: 62%;
     /* border-radius: 3px;*/
+  }
+  #portfolio {
+    margin: 0;
+    padding: 40px 10px 60px 40px;
+    background-color: rgba(179, 172, 167, 0.08);
+    box-shadow: -1px -1px 8px #283655;
   }
 }
 /********************* Curser *******************/
@@ -1396,7 +1402,7 @@ p {
     padding-top: 20px;
   }
   h3 {
-    font-size: 1em !important;
+    font-size: 2em !important;
   }
   #fcc,
   #occ {
@@ -1449,7 +1455,7 @@ p {
     text-align: center;
     background-color: rgba(179, 172, 167, 0.08);
     transform: translate(-50%, -50%);
-    margin-top: 300px;
+    margin-top: 325px;
   }
 
   #parcours h3 {
@@ -1467,5 +1473,10 @@ p {
     /* height: auto; */
     max-width: 62%;
     /* border-radius: 3px;*/
+  }
+  #portfolio {
+    padding: 40px 10px 60px 0px;
+    background-color: rgba(179, 172, 167, 0.08);
+    box-shadow: -1px -1px 8px #283655;
   }
 }
