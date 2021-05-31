@@ -374,16 +374,14 @@ header .button:hover a {
 }
 /* ********************* POST-IT *********************** */
 .section-post-it {
-  background: url(./media/tableau.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-size: 87%;
-  background-position: center;
+  position: relative;
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
 }
 
 .div-post-it {
-  width: 80%;
-  margin-left: 10%;
+  width: 70%;
 }
 
 body {
@@ -393,14 +391,21 @@ body {
   color: #fff;
 }
 
+.wrapper-post-it {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 8%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
 * {
   margin: 0;
   padding: 0;
-}
-
-.section-post-it {
-  margin-top: 80px;
-  padding-top: 120px;
 }
 
 h2.title-post-it {
@@ -418,7 +423,6 @@ ul.post-it {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding-top: 50px;
 }
 ul.post-it li a {
   text-decoration: none;
