@@ -1483,4 +1483,23 @@ p {
     background-color: rgba(179, 172, 167, 0.08);
     box-shadow: -1px -1px 8px #283655;
   }
+  .legende h4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+  .legende {
+    width: 100%;
+    padding: 50px 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2%;
+  }
+  .projet {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
 }
