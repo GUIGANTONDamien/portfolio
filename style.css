@@ -18,6 +18,9 @@ h3 {
 li {
   list-style-type: none;
 }
+.phone-css {
+  font-size: 20px;
+}
 /* ************************ HEADER *********************** */
 .navbar {
   background-color: #fafafa;
