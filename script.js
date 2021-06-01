@@ -18,7 +18,7 @@ window.addEventListener('scroll', function () {
 var typed = new Typed('.typed', {
   strings: [
     "Bonjour à tous et à toutes, je m'appelle Damien",
-    "Après avoir exercé différents métiers. J'ai décidé de me lancer à 100% dans l'apprentissage du code, après 5 mois à me former en autodidacte aux langages Front tels que CSS, Javascript et son Framework React. J'ai voulu solidifier mes connaissances en faisant une formation de développeur web. Plus qu'un avenir professionnel, je me suis découvert une passion, celle de coder.",
+    "Après avoir exercé différents métiers, j'ai décidé de me lancer à 100% dans l'apprentissage du code. J'ai commencé avec 5 mois de formation en autodidacte sur les technos Front (html, CSS, JS & React), puis j'ai souhaité consolider le tout via la formation Web Dev' proposée à la Wild Code School de Nantes. Je voulais un nouveau départ, et j'ai découvert une passion, celle de coder.",
   ],
   typeSpeed: 20,
 });
@@ -212,3 +212,12 @@ document
       goToItem(target);
     }
   });
+
+
+  /*  Button alert envoyer   */
+
+  
+  function clickAlert() {
+    alert("La fonctionnalité viendra plus tard");
+}
+
