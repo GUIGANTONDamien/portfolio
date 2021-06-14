@@ -14,4 +14,4 @@ C'est pourquoi, je compte le refaire à zéro mais en version REACT.JS. Ceci pou
 Gitpages : https://guigantondamien.github.io/portfolio/
 
 
-INFOS : Le côté back du formulaire n'est pas encore opérationnel. A l'avenir je rajouterais un script pour recevoir le contenu du formulaire par mail.
+INFOS : Le côté back du formulaire n'est pas encore opérationnel. A l'avenir je rajouterai un script pour recevoir le contenu du formulaire par mail.
