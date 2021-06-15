@@ -251,7 +251,9 @@ header .button:hover a {
 }
 .projet {
   display: flex;
+  justify-content: center;
 }
+
 .projet:nth-child(2) {
   margin-left: 2%;
 }
@@ -325,7 +327,6 @@ header .button:hover a {
 .legende {
   max-width: 350px;
   padding: 50px 0 0 20px;
-  opacity: 0;
   transition: 5s ease-in-out;
 }
 .projet:hover .legende {
